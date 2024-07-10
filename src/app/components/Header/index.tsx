@@ -8,8 +8,8 @@ export default function Header() {
     const [section, setSection] = useState('');
 
     return (
-        <header className="fixed flex items-center justify-center w-full text-white z-20 backdrop-blur-sm">
-            <div className="flex justify-between w-[97%] py-[22px] border-b-[0.5px] border-b-[#C6AA8F]">
+        <header className="fixed flex items-center justify-center w-full text-[#131313] z-20 backdrop-blur-sm">
+            <div className="flex justify-between w-[97%] py-[22px] border-b-[0.5px] border-b-[#131313]">
                 <Title />
                 <nav className="borde border-black">
                     <ul className="flex gap-1">
@@ -20,7 +20,7 @@ export default function Header() {
                                     onClick={() => setSection(e)}
                                 >
                                     <a
-                                        className={`text-base font-semibold hover:border-b border-white`}
+                                        className={`text-base font-semibold hover:border-b-2 border-[#131313]`}
                                         href={`#${e.split(',')[0]}`}
                                     >
                                         {listSections[listSections.length - 1] === e ? `${e}` : `${e},`}

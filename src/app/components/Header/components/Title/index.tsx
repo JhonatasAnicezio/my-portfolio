@@ -9,7 +9,7 @@ export default function Title() {
     return (
         <div className="flex gap-5 text-center justify-center items-center">
             <h1 className={`${playfair_display.className} font-medium`}>Jhonatas Anicezio</h1>
-            <h2 className="text-base font-semibold">SOFTWARE ENGINEER, FULL-STACK</h2>
+            <h2 className="text-base font-semibold">DESENVOLVEDOR, FULL-STACK</h2>
         </div>
     )
 }
